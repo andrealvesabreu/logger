@@ -1,0 +1,26 @@
+{
+	"keywords" : [
+		"Logger"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Inspire\\Logger\\" : "src"
+		}
+	},
+	"name" : "inspire/logger",
+	"type" : "library",
+	"description" : "Simple logger",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=7.4",
+		"inspire/config" : "~0.1",
+		"monolog/monolog" : "~2.3",
+		"inspire/cache": "^0.1.0",
+		"inspire/queue": "^0.1.0"
+	},
+	"authors" : [{
+			"name" : "André Alves",
+			"email" : "aluisalves0@gmail.com"
+		}
+	]
+}
